@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/answer_id"
+        android:gravity="top"
+        android:background="@drawable/answer_layout_bg"
+        android:hint="Andika swali lako hapa ..."
+        android:textAppearance="?android:textAppearanceMedium"
+        android:padding="16dp"/>
+
+</LinearLayout>

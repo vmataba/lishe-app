@@ -1,0 +1,696 @@
+<resources>
+    <string name="app_name">LisheApp</string>
+
+    <string name="lishe_1">LISHE YA MAMA NA MTOTO</string>
+    <string name="lishe_2">LISHE YA MAGONJWA SUGU YASIYOAMBUKIZWA</string>
+    <string name="lishe_3">LISHE YA KUPUNGUZA UZITO MKUBWA</string>
+    <string name="title_activity_user_account">UserAccountActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Lishe ya mama na mtoto Headers Array-->
+    <array name="lisheMamaNaMtoto">
+        <item>
+            Dalili za lishe mbovu kwa watoto
+        </item>
+        <item>
+            Kuchochea maendeleo ya ulaji kwa mtoto
+        </item>
+        <item>
+            Vidokezo muhimu vya lishe bora kwa mtoto
+        </item>
+        <item>
+            Kukamua maziwa ya mama
+        </item>
+        <item>
+            Ajali mbalimbali zinazowapata watoto na jinsi ya kuzikabili
+        </item>
+        <item>
+            Lishe Kipindi cha Ujauzito
+        </item>
+        <item>
+            Jinsi ya kufanikisha unyonyeshaji wa mtoto miezi sita ya mwanzo
+        </item>
+        <item>
+            Maziwa ya mama yana umuhimu gani kwa mtoto
+        </item>
+        <item>
+            Njia zitakazo msaidia mama kuzalisha maziwa kwa wingi
+        </item>
+        <item>
+            Umri wa kumuanzishia mtoto chakula cha nyongeza
+        </item>
+        <item>
+            Chakula cha nyongeza kinatakiwa kiwe vipi?
+        </item>
+        <item>
+            Njia za kumfanya mtoto apende chakula
+        </item>
+        <item>
+            Usafi wa vyakula vya watoto na mazingira
+        </item>
+        <item>
+            Ushiriki wa wanaume katika lishe ya mtoto
+        </item>
+        <item>
+            Vitu vya kuzingatia kwa walezi wa watoto
+        </item>
+        <item>
+            Lishe Kipindi cha Ujauzito (msaidizi wa nyumbani-dada wa kazi, shangazi n.k
+        </item>
+    </array>
+
+    <!--Lishe ya kupunguza uzito Headers Array-->
+    <array name="lisheKupunguzaUzito">
+
+        <item>
+            Je, mlo kamili ni upi?
+        </item>
+        <item>
+            Je, ni mafuta gani nitumie kwenye chakula?
+        </item>
+        <item>
+            Je, nyama nyekundu inamadhara yoyote mwilini?
+        </item>
+        <item>
+            Je, pombe inamadhara yoyote mwilini?
+        </item>
+        <item>
+            Je, uzito uliosahihi ni upi?
+        </item>
+        <item>
+            Ni nini husababisha uzito kuzidi na unene uliokithiri
+        </item>
+        <item>
+            Ni nini madhaea ya uzito uliozidi na unene uliokithiri
+        </item>
+        <item>
+            Nifanyeje kuzuia uzito mkubwa na unene uliokithiri
+        </item>
+
+    </array>
+
+
+    <!--Lishe ya magonjwa sugu Headers Array-->
+    <array name="magonjwaSugu">
+        <item>
+            Lishe ya mgonjwa wa kisukari
+        </item>
+        <item>
+            Lishe ya mgonjwa wa saratani
+        </item>
+    </array>
+
+    <array name="msaadaList">
+        <item>
+            Jinsi ya kusoma lishe
+        </item>
+        <item>
+            Jinsi ya kutuma maoni
+        </item>
+        <item>
+            Jinsi ya kuuliza maswali
+        </item>
+        <item>
+            Jinsi ya kuona maswali yako na maswali ya wengine ambayo yanatoa elimu kwa wote
+        </item>
+        <item>
+            Jinsi ya kuwasiliana nasi
+        </item>
+    </array>
+
+    <string name="test_answ">
+        Sahani ya Mlo unaofaa, ambayo imebuniwa na wataalamu wa lishe
+        kutoka Chuo Kikuu cha Afya ya Jamii,
+        Harvard na kuhaririwa na wataalamu kutoka Harvard, ni
+        muongozo wa mlo kamili unaofaa kwa afya-ikiwa utatumiwa
+        kwenye sahani ya mlo ama kama chakula cha kufunga kwenye box.
+        Bandika nakala kwenye fridge au kabati ili ikukumbushe kuandaa
+        mlo kamili wenye afya!
+    </string>
+
+    <!--Lishe ya mama na mtoto Headers Contents-->
+    <array name="mama_na_mtoto_1">
+        <item>
+            Mama kula mboga za majani na matunda kwa wingi kila siku katika kipindi chote
+            cha ujauzito ili kuepuka upungufu wa damu. Kumbuka afya ya mtoto aliyeko tumboni
+            inajengwa na chakula unachokula
+        </item>
+        <item>
+            Unywaji wa juisi ya rosella (choya) unaweza kukusaidia kuongeza damu vilevile
+            kuongeza hamu ya kula hata nyakati ambazo hujisikii kula
+        </item>
+        <item>
+            Mama, vyakula kama nyama na mayai ni muhimu kwa afya yako na mtoto aliye tumboni.
+            Kataa mila zinazokataza kula vyakula hivyo
+        </item>
+        <item>
+            Epuka ulaji wa vitu kama mkaa na udongo kwani vinaweza kukusababishia kupata
+            minyoo na huchangia katika kupata upungufu wa damu. Hamu ya vitu hivi inaweza
+            kua dalili ya upungufu wa damu. Wahi hospitali
+        </item>
+        <item>
+            Kipindi chote cha ujauzito epuka matumizi ya sigara na vilevi kama pombe na madawa
+            ya kulevya. Vitu hivi huathiri afya ya mama na mtoto aliye tumboni kwa kuharibu ukuaji
+            wa mwili na akili ya mtoto
+        </item>
+        <item>
+            Epuka matumizi ya vinywaji vyenye kafeini mfano kahawa, chai ya rangi na soda. Kafeini
+            inaweza kusababisha mimba kuharibika
+        </item>
+    </array>
+
+    <array name="mama_na_mtoto_2">
+        <item>
+            Anza kunyonyesha mtoto ndani ya lisaa limoja baada ya kujifungua ili kuanzisha na
+            kuchochea
+            uzalishaji wa maziwa ya mama mwilini
+        </item>
+        <item>
+            Mama, usimwage maziwa ya kwanza yenye rangi ya njano, (Colostrum). Maziwa haya humpa
+            mtoto
+            kinga dhidi ya magonjwa mbalimbali
+        </item>
+        <item>
+            Nyonyesha mtoto maziwa yako tu kwa miezi 6 ya mwanzo tangu mtoto kuzaliwa.
+            Usimpe mtoto kitu chochote cha nyongeza hata maji ya kunywa
+        </item>
+        <item>
+            Maziwa ya mama ni mlo tosha wa mtoto kwa miezi 6 ya mwanzo. Maziwa yana maji na
+            virutubisho VYOTE anavyohitaji mtoto. Usimpe mtoto maziwa ya kopo/ng`ombe, uji
+            mwepesi au vyakula vyovyote
+        </item>
+        <item>
+            Usimpe mtoto wa chini ya miezi 6 ya wanyama kama ng`ombe, mbuzi na kondoo. Maziwa
+            haya hayawafai watoto wadogo na huathiri afya zao
+        </item>
+        <item>
+            Mfumo wa kusaga chakula cha mtoto wa chini ya miezi 6 hauwezi kusaga vyakula na vinywaji
+            vya nyongeza. Kumpa vyakula na vinywaji ni kuathiri afya ya mtoto
+        </item>
+        <item>
+            Mama/baba usisikilize ushauri unaokushawishi kumpa mtoto wa chini ya miezi 6 vyakula vya
+            nyongeza. Kama mtoto analia sana au kama unahisi hashibi nenda hospitali upatiwe msaada
+            wa kutatua matatizo hayo
+        </item>
+        <item>
+            Wakati wa kumnyonyesha mtoto, mwache mtoto anyonye kwa muda mrefu ziwa moja kwani maziwa
+            ya mwanzo hua na maji ili kukidhi kiu yake na baadae hutoka maziwa mazito yenye protini
+            na mafuta kwa wingi ili kumjenga na kumpa mtoto joto
+        </item>
+    </array>
+
+    <array name="mama_na_mtoto_3">
+        <item>
+            Kwa miezi 6 ya mwanzo, maziwa ya mama yana virtubisho vyote kwa uwiano sahihi, pamoja na
+            maji, vinavyohitajika na mtoto kwa ukuaji na maendeleo ya mtoto
+        </item>
+        <item>
+            Maziwa ya mwanzo ya mama yana kinga mwili zenye uwezo mkubwa wa kumkinga mtoto dhidi ya
+            magonjwa mbalimbali mabayo yanaweza kuathiri ukuaji na maendeleo ya mtoto
+        </item>
+        <item>
+            Maziwa ya mama husagwa kwa urahisi na kutumika kwa ufanisi zaidi kuliko maziwa ya kopo
+            au maziwa ya kawaida ya wanyama
+        </item>
+        <item>
+            Maziwa ya mama huongeza uwezo wa akili ya mtoto. Mama nyonyesha mtoto wako, ujenge uwezo
+            wa akili yake ili afanye vizuri darasani
+        </item>
+        <item>
+            Maziwa ya mama humkinga mtoto zidi ya magonjwa sugu yasiyo ya kuambukiza mfano kisukari,
+            shinikizo la juu la damu katika maisha ya baadae
+        </item>
+        <item>
+            Mama usimwage maziwa yako ya mwanzo yenye rangi ya njano (Colostrum). Maziwa haya
+            humpatia mtoto kingamwili mbalimbali ambazo mtoto hua hajazaliwa nazo
+        </item>
+    </array>
+    <array name="mama_na_mtoto_4">
+        <item>
+            Mtoto wa kuanzia miezi 6 anaweza kula chakula mchanganyiko kutoka katika makundi mbali
+            mbali ya chakula kama; Nafaka, mizizi, viazi na ndizi mbichi, Wanyama na mazao yake,
+            jamii
+            ya mikunde na wadudu, Mboga mboga,matunda na mafuta
+        </item>
+        <item>
+            Wataalamu wanashauri usimpe mtoto wa chini ya mwaka mmoja asali, sukari kwa wingi wali
+            chumvi.
+            Ni vyema mzazi/mlezi ukasubiri mtoto afikishe mwaka mmoja ndipo uanze kumpa vitu hivi
+        </item>
+        <item>
+            Mpatie vyakula vya nafaka, jamii ya mizizi na ndizi mbichi kama ugali, wali, mihogo,
+            ndizi
+            mbichi, viazi, boga. Vyakula hivi vina virutubisho vya wanga kwa wingi hivyo huupatia
+            mwili nishati lishe
+        </item>
+        <item>
+            Mzazi/mlezi KUMBUKA Nafaka zisizokobolewa kama mahindi (dona), ulezi, uwele, ngano,
+            mchele
+            n.k Zina virutubisho zaidi kuliko vinavyokobolewa
+        </item>
+        <item>
+            Wanyama na mazao yake (mfano mayai, samaki, kuku, wadudu), karanga, mbegu za alizeti,
+            vyakula jamii ya kunde, maziwa na bidhaa zake vyakula hivi vina protini (utomwili) kwa
+            wingi hivyo husaidia kujenga mwili wa mwanao. Mtoto mdogo anahitaji kundi hili kwa wingi
+            kila siku
+        </item>
+        <item>
+            Mzazi/Mlezi fahamu kua maziwa ya wanyama kama ng`ombe yanampatia mtoto madini ya kalsium
+            kwa wingi ambayo ni muhimu sana kwa ajili ya kujenga mifupa na misuli imara ya mtoto
+        </item>
+        <item>
+            Matunda na mbogamboga vinasaidia kuupa mwili wa mtoto vitamini na madini kwa wingi na
+            kumpatia kinga imara ya mwili, vilevile huupa mwili nyuzinyuzi ambazo husaidia mfumo
+            mzima
+            wa tumbo wa usagaji wa chakula
+        </item>
+        <item>
+            KUMBUKA- Mafuta mazuri ya kula ni yale yatokanayo na mimea kama karanga na mbegumbegu za
+            ufuta, alizeti na maboga. Mafuta haya huupatia mwili wa mtoto nishatilishe kwa wingi na
+            ni mazuri kwa afya
+        </item>
+        <item>
+            Mtoto wa miezi 6-8 ambaye ananyonya maziwa ya mama apewe chakula angalau mara mbili kwa
+            siku. Mtoto wa miezi 9-23 anayenyonya maziwa ya mama apewe chakula angalau mara tatu kwa
+            siku
+        </item>
+    </array>
+    <array name="mama_na_mtoto_5">
+        <item>
+            Mzazi/Mlezi kumbuka kua inashauriwa kumpatia mtoto chakula cha nyongeza mara tu
+            anapotimiza umri wa miezi 6
+        </item>
+        <item>
+            Mtoto anapotimiza umri wa miezi 6 anza kumpa mlo kamili na wa kutosha. Anza kumpa
+            chakula
+            laini kama uji, ndizi au viazi vilivyosagwa kidogokidogo angalau mara mbili kwa siku
+            huku ukiendelea kumnyonyesha maziwa yako
+        </item>
+        <item>
+            Maziwa ya mama pekee hayatoshelezi mahitaji ya kilishe kwa mtoto aliyetimiza umri wa
+            miezi 6. Endapo mtoto atacheleweshwa sana kuanzishiwa chakula cha nyongeza atashindwa
+            kukua
+            vizuri
+        </item>
+        <item>
+            Kama ukitumia uji wa nafaka kama chakula cha nyongeza kwa mtoto wako, anza kutengeneza
+            uji kwa kutumia nafaka ya aina moja mfano uji wa dona pekee. Usichanganye nafaka nyingi
+            katika chakula cha mtoto anayepewa chakula cha nyongeza
+        </item>
+        <item>
+            Usimpe uji mwepesi sana mtoto aliyetimiza miezi 6 kama chakula cha nyongeza. Uji mwepesi
+            au uliochujwa hauna virutubisho vya kutosha kwa ukuaji na maendelo bora ya mtoto
+        </item>
+    </array>
+
+    <array name="mama_na_mtoto_6">
+        <item>
+            Mama anza kunyonyesha ndani ya lisaa limoja baada ya kujifungua. Hii itasaidia kuzalisha
+            homoni zinazotengeneza maziwa mwilini mwako
+        </item>
+        <item>
+            Mama kula vyakula vitakavyosaidia kuzalisha maziwa kwa wingi kama uji, supu mtori.
+            Unaweza kuongeza viungo vyenye virutubisho katika vyakula hivi kama pilipili manga,
+            mdalasini, hiliki, tangawizi na mbegu za maboga
+        </item>
+        <item>
+            Nyonyesha mtoto kila anapohitaji kunyonya na kuonyesha dalili za kua na njaa kama
+            kuvuta midomo, kunyonya midomo, n.k. Unavyonyonyesha mara kwa mara unasaidia kuchochea
+            uzalishaji wa maziwa zaidi
+        </item>
+        <item>
+            Ili maziwa yazalishwe kwa wingi hakikisha mama huna mawazo. Mawazo, kutojiamini kua
+            maziwa yako yanatosha na magonjwa huzuia uzalishaji wa maziwa
+        </item>
+    </array>
+    <array name="mama_na_mtoto_7">
+        <item>
+            Wakati wa kumlisha mtoto ni vyema mzazi au mlezi utumie lugha ya upole na upendo ili
+            kumhamasisha mtoto kula. Lugha za matusi, vitisho na ukali humfanya mtoto achukie na
+            akatae kula chakula
+        </item>
+        <item>
+            Ili mtoto apende kula, pendelea kumpa chakula chake kipindi ambacho familia pia inakula.
+            Hii itamhamasisha kula zaidi. Asile peke yake mara zote
+        </item>
+        <item>
+            Mzazi/Mlezi ni MARUFUKU kumkaba mtoto ili ale chakula. Hii inaweza kusababisha madhara
+            makubwa ikiwemo chakula kupita njia ya hewa pamoja na madhara ya kisaikolojia. Mtoto
+            ataona kula ni adhabu na kuchukia chakula
+        </item>
+        <item>
+            Kumlisha mtoto kunahitaji uvumilivu. Tenga muda wa kutosha wa kumlisha mtoto wako. Ongea
+            nae, zunguka nae na cheza nae huku ukimbembeleza kula kwa upole na kwa upendo
+        </item>
+        <item>
+            Jaribu kumpa mtoto vyakula vya aina mbalimbali ili ujue anapenda vyakula gani. Kwa
+            watoto
+            wakubwa kidogo mfano miaka mitatu na kuendelea ni muhimu kumshirikisha mtoto katika
+            uandaaji wa chakula
+        </item>
+        <item>
+            Mzazi/Mlezi awe kioo kwa mtoto wake kwa kula mlo kamili na ulio bora. Mzazi ukila mlo
+            kamili
+            na wa bora ni rahisi mtoto kuiga na kupenda mlo wake
+        </item>
+        <item>
+            Jitahidi vyombo unavyotumia kumlishia mtoto viwe vinavutia. Usiweke chakula kwenye
+            bakuli lililoharibika mfano lililoungua, lenye ufa, lililopondeka na kadhalika. Nunua
+            vyombo vya watoto vizuri, vyenye kuvutia na vya bei nafuu kabisa ili kumhamasisha mtoto
+            kula
+        </item>
+    </array>
+
+    <array name="mama_na_mtoto_8">
+        <item>
+            Mzazi/Mlezi, zingatia usafi na usalama wakati wa kuandaa chakula cha mtoto wako ili
+            kuzuia asipate maambukizi ya magonjwa kama vile kuhara na matumbo
+        </item>
+        <item>
+            Chakula cha mtoto kifunikwe vizuri na kiliwe mara moja baada ya kuandaliwa. Usihifadhi
+            chakula cha mtoto muda mrefu sana kwa kuwa kitazalisha vimelea vya magonjwa
+        </item>
+        <item>
+            Mzazi/Mlezi, acha kuandaa chakula cha mtoto kama uji na kuuhifadhi kwenye chupa kwa
+            muda mrefu. Andaa chakula kiasi kidogo na kutumia mara moja. Chakula kilichokaa sana sio
+            kizuri kwa afya ya mwanao
+        </item>
+        <item>
+            Vyombo vya watoto vinatakiwa vioshwe kwa maji safi na sabuni na kusuuzwa na maji mengi.
+            Ikiwezekana tumia maji ya moto kuosha vyombo vya mtoto
+        </item>
+        <item>
+            Unapoosha vyombo vya mtoto, usichanganye na vyombo vichafu vya familia ili kuzuia
+            kuviongezea
+            uchafu zaidi na vitu kama mafuta. Tenganisha vyombo vya mtoto na vioshe peke yake
+        </item>
+        <item>
+            Osha mikono yako na ya mtoto wako mara kwa mara kwa maji safi na salama yanayotiririka
+            pamoja na sabuni kabla ya kumlisha mtoto na unapotaka kutumia choo ili kumkinga mtoto
+            dhidi ya maradhi
+        </item>
+        <item>
+            Unapoandaa chakula cha mtoto, hakikisha mavazi na mwili wako ni safi. Mavazi na mwili
+            mchafu vinaweza kusibika/kuharibu chakula unachoandaa na kuongeza uwezekano wa uenezaji
+            wa magonjwa kama kuhara na matumbo
+        </item>
+        <item>
+            KUMBUKA- kufunika vizuri chakula cha mtoto na kuhifadhi katika mazingira safi na salama
+            ambayo wadudu hatari kama vili inzi. mende na panya hawatakifikia na kukichafua
+        </item>
+        <item>
+            KUMBUKA- kutumia maji safi na salama wakati wa kuandaa chakula cha mtoto na cha familia
+            na kuosha matunda kwa maji safi,salama na ya kutosha kabla ya kumpa mtoto
+        </item>
+    </array>
+
+    <array name="mama_na_mtoto_9">
+        <item>
+            Baba unaweza kusaidia kumsisimua mama ili atengeneze maziwa zaidi. Mkandekande mgongoni
+            na mtie moyo kua anaweza kuzalisha maziwa ya kumtosha mtoto na pia mtie moyo akamue
+            maziwa na kuyahifadhi
+        </item>
+        <item>
+            Baba elewa kwamba malezi ya mtoto sio jambo rahisi. Tafadhali msaidie mama kazi za
+            nyumbani ili apate muda mzuri wa kumtunza mtoto
+        </item>
+        <item>
+            Baba mpatie mama maneno ya faraja na mtie moyo kipindi chote cha malezi ya mtoto,
+            kuanzia ujauzito na hata baada ya kujifungua. Elewa kuwa msongo wa mawazo wa mama
+            utazuia utengenezaji wa maziwa yake
+        </item>
+        <item>
+            Baba msisitize mama kula mlo kamili na kuepuka vilevi kipindi cha ujauzito na baada ya
+            kujifungua. Baba uwe na mfano wa kutotumia vitu hivi pia
+        </item>
+        <item>
+            Wanafamilia hakikisha mnamsaidia mama kazi za nyumbani ili apate muda wa kutosha wa
+            kupumzika na kumuangalia mtoto vizuri. Kumbuka kuwa malezi ya mtoto ni jukumu la kila
+            mmoja wetu na sio mama peke yake
+        </item>
+    </array>
+
+    <array name="mama_na_mtoto_10">
+        <item>
+            Mpendwa Dada, wewe ni mtu muhimu sana kwenye malezi ya mtoto na tunathamini sana mchango
+            wako
+        </item>
+        <item>
+            Mpendwa Dada, kulisha mtoto kunahitaji uvumilivu. Ongea nae, zunguka nae, tafuta sehemu
+            nzuri, kaa nae na mpe chakula kwa upole na upendo
+        </item>
+        <item>
+            Mpendwa Dada, ukiwa na tatizo lolote linalokufanya usiweze kumuhudumia na kumlisha mtoto
+            vizuri ni vyema ukazungumza na mama ili mlitatue
+        </item>
+        <item>
+            Mpendwa Dada, usimkabe au kumziba pua mtoto kipindi cha kumlisha chakula. Kwa watoto
+            wakubwa wanaosumbua kula, kaa nae jikoni na mtayarishe chakula kwa upendo
+        </item>
+        <item>
+            Mpendwa Dada, kumbuka kuwa, matumizi ya vitu kama television na simu kwa kupindukia
+            yatakunyima muda wa kumhudumia mtoto vizuri. Punguza uangaliaji wa Television na
+            matumizi ya simu
+        </item>
+    </array>
+
+    <array name="mama_na_mtoto_11">
+        <item>
+            Mkimbize mtoto hospitali kipindi unapoona anahara (kupata choo cha maji maji zaidi ya
+            mara
+            4 ndani ya siku). Kuharisha ni hatari. Kunachukua virutubisho mtoto alivyokula
+            na kumdhoofisha mtoto
+        </item>
+        <item>
+            Mpeleke mtoto hospitali pale unapogundua kwamba ana uzito mdogo usioendena na urefu na
+            umri wake. Vitu kama kadi ya mtoto ya kliniki itakwambia uzito wa mtoto wako
+        </item>
+        <item>
+            Mpeleke mtoto hospitali unapogundua ana ngozi na nywele zisizo za kawaida pamoja na
+            midomo au ngozi kuwa kavu. Hizi ni dalili za utapiamlo
+        </item>
+        <item>
+            Mpeleke mtoto hospitali unapokua umejaribu njia zote za kumlisha chakula lakini bado
+            anakataa chakula kwa muda mrefu. Kumbuka ili mtoto awe na afya bora lazima awe anakula
+            chakula bora
+        </item>
+        <item>
+            Mpeleke mtoto hospitali kwa uchunguzi zaidi ukimuona anachoka mara kwa mara na kupunguza
+            uchangamfu (anakua malalamishi na hapendi kucheza na wenzake)
+        </item>
+    </array>
+
+    <array name="mama_na_mtoto_12">
+        <item>
+            Watoto wanaoweza kuongea washirikishwe kuchagua vyakula wanavyovipenda. Mzazi/Mlezi
+            msaidie mtoto wako afanye chaguo sahihi
+        </item>
+        <item>
+            Mzazi/Mlezi nenda na watoto wako eneo unalonunulia chakula (gengeni, sokoni, super
+            market, dukani, gulioni) na uwasikilize nini wanapendelea kula. Kumbuka mnaweza kufanya
+            machaguo sahihi ya vyakula kwa bei nafuu kabisa
+        </item>
+        <item>
+            Watoto wakubwa waruhusiwe kuingia jikoni chini ya uangalizi wa mzazi/mlezi. Waonyeshe
+            unavyoandaa chakula na washirikishe msaidiane kuandaa mlo kamili na ulio bora
+        </item>
+        <item>
+            Kumbuka kula mlo bora na kamili sio lazima uwe na pesa nyingi. Pangilia pesa uliyonayo
+            na hakikisha unanunua vyakula bora, kamili na asili vinavyopatikana kwenye eneo lako
+            unaloishi
+        </item>
+    </array>
+
+    <array name="mama_na_mtoto_13">
+        <item>
+            Ongeza kiini cha yai kwenye uji au viazi vilivyopondwapondwa ili kuongeza kiwango cha
+            protini. Wakati uji ukiwa unachemka, vunja yai, weka kiini koroga haraka na hakikisha
+            unaiva vizuri ndipo umpe mtoto
+        </item>
+        <item>
+            Hakikisha kua vyakula ambavyo mtoto hawezi kuvitafuna, unavipondaponda vizuri, saga kwa
+            kutumia blenda na kinu kisafi kisha andaa
+        </item>
+        <item>
+            Ongeza vitu kama maziwa na siagi ya karanga katika vyakula vya mtoto. Hakikisha kua
+            karanga zimechambuliwa na kuandaliwa vizuri
+        </item>
+        <item>
+            Kumbuka kuwapatia watoto maji ya kunywa yaliyo safi na salama. Hakikisha humpi mtoto
+            vinywaji vyenye sukari nyingi kama soda, chai na kahawa
+        </item>
+        <item>
+            KUMBUKA-Mbogamboga na matunda ni muhimu sana. zitamkinga mtoto dhidi ya magonjwa
+            mbalimbali kama upungufu wa damu, kuugua mara kwa mara na kusaidia kupata choo laini
+            na kwa wakati
+        </item>
+    </array>
+
+    <array name="mama_na_mtoto_14">
+        <item>
+            Mama kumbuka unaweza kukamua maziwa yako na kumpatia mtoto. Kukamua maziwa kutamsaidia
+            mtoto mgonjwa ambae ameshindwa kunyonya ziwa lako kupata maziwa
+        </item>
+        <item>
+            Kabla ya kuanza kukamua maziwa hakikisha mikono yako umeiosha na maji safi na salama
+            yanayotiririka na ziwa lako ni safi na kavu. Usafi wa vyombo utakavyowekea maziwa
+            yaliyokamuliwa ni muhimu sana kuzingatiwa
+        </item>
+        <item>
+            Unapokamua maziwa hakikisha umekaa au umesimama eneo huru na mwili wako umepumzika
+            vizuri ili kuruhusu maziwa kutoka vizuri na kwa wingi. Unapoanza kukamua maziwa yanaweza
+            yasitoke. Usikate tamaa endelea kukamua taratibu
+        </item>
+        <item>
+            Unapokamua maziwa weka dole gumba kwenye ziwa lako juu ya chuchu na kwenye eneo la duara
+            jeusi karibu na chuchu na weka kidole cha baada ya gumba chini ya ziwa na chuchu. Vidole
+            vilivyobaki vishike ziwa kwa chini. Kisha anza kukamua maziwa taratibu
+        </item>
+        <item>
+            Unapokamua maziwa fanya taratibu na usiwe na haraka, ukamuaji wa harakaharaka unaweza
+            kuchangia kuiziba kwa mirija ya kutolea maziwa. Kumbuka ukisikia maumivu kipindi cha
+            kukamua ujue unakosea kukamua. Zoezi hili halitakiwi kua na maumivu
+        </item>
+        <item>
+            Maziwa yanaweza kukamuliwa pia kwa pump maalum ya kukamulia maziwa. Kumbuka ni muhimu
+            sana kuzingatia usafi wa pump na vyombo vya kukamulia
+        </item>
+        <item>
+            Maziwa yaliyokamuliwa yahifadhiwe kwenye vyombo visafi na vikavu na vyenye mifuniko.
+            Maziwa ya mama yaliyokamuliwa, yanaweza kukaa katika joto la kawaida kwa masaa 6-8,
+            yale yaliyowekwa kwenye jokofu (friji) yanaweza kukaa kuanzia siku 5-7 na yale
+            yaliyohifadhiwa kwenye barafu (freezer) yanaweza kukaa kuanzia miezi 3-6
+        </item>
+        <item>
+            Mama kumbuka, maziwa yaliyogandishwa kisha kuyeyushwa kwa ajili ya matumizi hayaruhusiwi
+            tena kurudishwa kwenye freezer na kugandishwa. Yatumie yote au yamwage kama yamebaki
+        </item>
+    </array>
+
+    <array name="mama_na_mtoto_15">
+        <item>
+            Mzazi/Mlezi, ni muhimu sana kua makini mtoto anapoanza kukaa na kutambaa ili kumkinga
+            na ajali mabalimbali zinazoweza kumuumiza au hata kumhatarishia maisha
+        </item>
+        <item>
+            Mzazi/Mlezi tambua kuwa ajali nyingi za watoto hutokea maeneo ya jikoni au eneo
+            linalotumika kuandaa chakula. Ni muhimu kuchukua tahadhari
+        </item>
+        <item>
+            Weka mbali na watoto vitu kama dawa, sabuni, vipodozi. Vitu hivi huwa na rangi
+            inayowavutia watoto kuvifuata. Wahi hospitali mtoto anapokula au kunywa vitu hivi kabla
+            madhara hayajatokea
+        </item>
+        <item>
+            Weka mbali na watoto mafuta ya taa. Mtoto akinywa mafuta ya taa usimpe vitu kama maji na
+            maziwa na usimtapishe. Mkimbize haraka hospitali
+        </item>
+        <item>
+            Ukimtapisha mtoto aliyekunywa mafuta unaieneza sumu iliyopo kwenye mafuta ielekee kwenye
+            mapafu ya mtoto. Hiyo ni hatari mkimbize mtoto hospitali haraka kwa matibabu
+        </item>
+        <item>
+            Moto akimeza kitu na kushindwa kupumua mgeuze mwili wake uso uangalie chini, mpige
+            taratibu ukitumia kiganja cha mkono mara tano eneo la mgongoni. Akiwa bado anahangaika
+            kupumua na alichokimeza hakijatoka mkimbize hospitali haraka
+        </item>
+        <item>
+            Mtoto anayeharisha anahatari ya kukaukiwa na maji mwilini. Mtoto akiharisha zaidi ya
+            mara nne ni hatari. Mpe maji ya kutosha, mpe vitu vya majimaji pia kama juisi ya
+            kutengenezwa nyumbani au mchanganyiko maalumu wa ORS. Mkimbize hospitali haraka kama
+            anaendelea kuharisha
+        </item>
+        <item>
+            Weka mbali na watoto vitu kama chai, uji au supu ya moto. Mtoto akiungua kama sio
+            pakubwa papoze na maji ya baridi kwa dakika kama kumi kisha mfunike mtoto vizuri kisha
+            mpeleke hospitali kwa uchunguzi zaidi
+        </item>
+        <item>
+            Mtoto mwenye homa, aliyechemka mwili, anatoa jasho na ana joto kubwa (kuanzia 37°C na
+            kuendelea), mpunguzie nguo alizovaa, mpe dawa uliyoshauriwa na daktari pamoja na vitu
+            vya majimaji, joto likigoma kushuka wahi hospitali
+        </item>
+    </array>
+
+    <!--Regions-->
+    <array name="regions">
+        <item>Chagua Mkoa wako ...</item>
+        <item>Arusha</item>
+        <item>Dar es Salaam</item>
+        <item>Dodoma</item>
+        <item>Geita</item>
+        <item>Iringa</item>
+        <item>Kagera</item>
+        <item>Katavi</item>
+        <item>Kigoma</item>
+        <item>Kilimanjaro</item>
+        <item>Lindi</item>
+        <item>Manyara</item>
+        <item>Mara</item>
+        <item>Mbeya</item>
+        <item>Morogoro</item>
+        <item>Mtwara</item>
+        <item>Mwanza</item>
+        <item>Njombe</item>
+        <item>Pemba Kaskazini</item>
+        <item>Pemba Kusini</item>
+        <item>Pwani</item>
+        <item>Rukwa</item>
+        <item>Ruvuma</item>
+        <item>Shinyanga</item>
+        <item>Simiyu</item>
+        <item>Singida</item>
+        <item>Songwe</item>
+        <item>Tabora</item>
+        <item>Tanga</item>
+        <item>Zanzibar Kaskazini</item>
+        <item>Zanzibar Kusini</item>
+        <item>Zanzibar Mjini Magharibi</item>
+    </array>
+
+    <array name="mada_za_msaada">
+        <item>
+            <!--Jinsi ya kusoma lishe-->
+            Baada ya kukamilisha usajili, programu ikifunguliwa itaonesha orodha ya makundi ya lishe
+            mbalimbali (Mfano Lishe ya Mama na Mtoto). Chagua kundi la lishe husika, kisha programu
+            itaonesha vipengele mbalimbali vinavyohusiana na kundi husika la lishe, chagua kipengele
+            husika kisha soma maelezo yatakayo kuja.
+        </item>
+        <item>
+            <!--Jinsi ya kutuma maoni-->
+            Baada ya programu kua imefunguka, juu upande wa kulia kuna alama ya menu, chagua hiyo,
+            kisha utaona orodha ya machaguo mbalimbali, chagua MAONI. Baada ya hapo utaona sehemu
+            ya kuchagua aidha Tatizo au Maboresho, chagua moja wapo kati ya hivyo, kisha utaandika
+            Tatizo/Mapendekezo ya Maboresho kwenye sehemu ya kuandika ujumbe kama programu inavyo
+            elekeza. Baada ya hapo bonyeza kitufe kilicho andikwa Tuma Tatizo (Kama unawasilisha
+            tatizo) au Tuma mapendekezo ya maboresho (Kama ulichagua maboresho), baada ya hapo
+            maoni yatakua yamewasilishwa.
+        </item>
+        <item>
+            <!--Jinsi ya kuuliza swali-->
+            Baada ya Usajili kukamilika, programu ikifunguliwa itaonesha orodha ya makundi ya Lishe
+            na Sehemu ya ULIZA SWALI. Chagua hiyo, kisha utaona sehemu ya kuchagua aina ya Lishe,
+            chagua aina ya lishe kisha andika swali lako kwa chini kama programu inavyoelekeza
+            mwisho
+            bonyenza kitufe kilichoandikwa Tuma swali (ili kuwasilisha swali)
+        </item>
+        <item>
+            <!--Jinsi ya kuona maswali yangu na maswali bora-->
+            Baada ya Usajili kukamilika, programu ikifunguliwa utaona orodha ya makundi ya lishe,
+            Chagua kundi moja wapo, kisha utaona vipengele mbalimbali vinavyohusiana na kundi husika
+            la lishe. Juu upande wa kulia chagua alama ya menu, kisha utaona orodha ya chaguzi
+            mbalimbali, chagua MASWALI BORA (Kuona maswali ya kwako na wengine yanayotoa elimu kwa
+            wote) au MASWALI YANGU (kuona maswali ya kwako binafsi ambayo ulishaawahi kuuliza).
+        </item>
+        <item>
+            <!--Jinsi ya kuwasiliana nasi-->
+            Baada ya Usajili kukamilika, programu ikifunguliwa utaona orodha ya makundi ya lishe,
+            Chagua kundi moja wapo, kisha utaona vipengele mbalimbali vinavyohusiana na kundi husika
+            la lishe. Juu upande wa kulia chagua alama ya kuuliza kisha utaona sehemu imeandikwa
+            Tupigie simu (Chagua hii kama unataka kuwasiliana nasi kwa njia ya simu, hakikisha
+            unairuhusu programu kupiga simu kama ikiomba ruhusa). Sehemu nyingine upande wa kulia
+            imeandikwa Tutumie Email (Chagua hii kama unataka kuwasiliana nasi kwa njia ya barua
+            pepe).
+        </item>
+    </array>
+</resources>

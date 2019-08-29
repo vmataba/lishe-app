@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/faintBackground"
+    android:padding="15dp"
+    tools:context="com.example.emmanuel.lisheapp.UpdateAccountActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Taarifa zangu"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/white"
+        android:gravity="left" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jina la Kwanza"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/userFName"
+                android:hint="Andika Jina la kwanza hapa"
+                android:paddingLeft="10dp"
+                android:background="@drawable/reg_item_bg"
+                android:inputType="text"
+                android:enabled="false"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jina la Mwisho"
+                android:layout_marginTop="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/userLName"
+                android:hint="Andika Jina la Mwisho hapa"
+                android:paddingLeft="10dp"
+                android:background="@drawable/reg_item_bg"
+                android:inputType="text"
+                android:enabled="false"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Namba ya Simu"
+                android:layout_marginTop="5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/countryCode"
+                    android:text="+255"
+                    android:background="@drawable/reg_item_bg"
+                    android:layout_marginRight="2dp"
+                    android:paddingLeft="3dp"
+                    android:enabled="false" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/userPhone"
+                    android:hint="Andika Namba ya simu hapa"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/reg_item_bg"
+                    android:inputType="number"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_marginTop="5dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/userEmail"
+                android:hint="Andika Email hapa"
+                android:paddingLeft="10dp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/reg_item_bg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mkoa"
+                android:layout_marginTop="16dp"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/userRegion"
+                android:hint="Andika Jina la mkoa hapa"
+                android:paddingLeft="8dp"
+                android:background="@drawable/reg_item_bg"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Umri"
+                android:layout_marginTop="16dp"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/userAge"
+                android:hint="Andika umri wako hapa"
+                android:paddingLeft="8dp"
+                android:background="@drawable/reg_item_bg"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Tunza Taarifa"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_gravity="left"
+                android:id="@+id/btn_update"
+                android:gravity="center"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

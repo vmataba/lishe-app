@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="MAONI"
+        android:id="@+id/menu_maoni"/>
+    <item android:title="MASWALI BORA"
+        android:id="@+id/menu_maswali_bora"/>
+    <item android:title="AKAUNTI YANGU"
+        android:id="@+id/menu_akaunti_yangu"/>
+    <item android:title="MASWALI YANGU"
+        android:id="@+id/menu_maswali_yangu"/>
+    <!--item android:title="SEARCH"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:id="@+id/menu_search"
+        app:actionViewClass="android.widget.SearchView" /-->
+    <item android:title="SHARE"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:id="@+id/menu_share"/>
+
+</menu>
